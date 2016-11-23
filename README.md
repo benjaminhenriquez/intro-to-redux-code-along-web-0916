@@ -2,6 +2,8 @@
 
 ## Objectives
 
+bbb
+
 * Set up the basic Redux architecture
 * Use `Provider` to make  `store` available to your components
 * Use `connect` and `mapStateToProps` to pass data from the store's state to your components
@@ -406,4 +408,4 @@ Before we go, let's sum up the overall flow of data through our application.
 1. We dispatch an action to the store. The action has a `type` of `GET_SHOPPING_LIST_ITEMS` and a `payload` of an array of items.
 2. Our store passes the action into the reducer and resets state to be the return value of that function call.
 3. Our store tells any components who care to re-render themselves, in this case, our connected `App`  component.
-4. Our `App` component re-renders and passes props down to the `ShoppingList`. 
+4. Our `App` component re-renders and passes props down to the `ShoppingList`.
